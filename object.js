@@ -14,6 +14,7 @@ let user = {
    return accumulator + value;
   }, 0);
   console.log(sumNumericValues);
+  return sumNumericValues;
  },
 
  // метод возвращает массив с названиями полей,где названия полей отсортированы по убыванию
